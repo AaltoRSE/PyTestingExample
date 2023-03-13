@@ -1,17 +1,21 @@
-from functions import add,subtract,multiply
+from functions import add, subtract, multiply
 from functions import convert_fahrenheit_to_celsius as f2c
 import pytest
 
+
 def test_add():
-    assert add(2,3) == 5
-    assert add('space','ship') == 'spaceship'
+    assert add(2, 3) == 5
+    assert add("space", "ship") == "spaceship"
+
 
 def test_subtract():
-    assert subtract(3,2) == 1
-    
+    assert subtract(3, 2) == 1
+
+
 def test_multiply():
-    assert multiply(4,6) == 24
-    assert multiply([1],4) == [1,1,1,1]
+    assert multiply(4, 6) == 24
+    assert multiply([1], 4) == [1, 1, 1, 1]
+
 
 def test_convert_fahrenheit_to_celsius():
     assert f2c(32) == 0
