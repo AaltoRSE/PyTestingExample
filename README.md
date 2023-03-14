@@ -2,7 +2,7 @@
 
 This repository is used for automated testing as described on the [CodeRefinery Testing Lecture](https://coderefinery.github.io/testing/continuous-integration/).
 
-If you follow the instructions on that page, you can use this repository as a basis for the exercise and skip Steps 1 and 2. Simply [fork] (https://github.com/AaltoRSE/PyTestingExample/fork) it to your own github repositories, make a local clone
+If you follow the instructions on that page, you can use this repository as a basis for the exercise and skip Steps 1 and 2. Simply [fork](https://github.com/AaltoRSE/PyTestingExample/fork) it to your own github repositories, make a local clone
 ```
 git clone https://github.com/<yourGitHubName>/PyTestingExample
 ```
