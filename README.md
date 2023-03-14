@@ -6,6 +6,6 @@ If you follow the instructions on that page, you can use this repository as a ba
 ```
 git clone https://github.com/<yourGitHubName>/PyTestingExample
 ```
-and then follow steps 3.-9. in the instructions.
+and then follow steps 3.-11. in the instructions.
 
 The "Solution" branch contains a version with all tests corrected and set up along with a template for the github action necessary.
