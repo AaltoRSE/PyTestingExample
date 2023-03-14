@@ -10,6 +10,8 @@ The "Solution" branch contains a version with all actions set up and all tests r
 ## The workflow script.
 
 The following is an adaption of the default python package workflow that will in addition to running the tests, also create code coverage information for a pull request to main. 
+This workflow differs to the one mentioned in the lesson by testing against multiple python versions. This is beneficial
+for code that uses newer python features as it ensures backwards compatability to all tested versions. 
 
 ```yml
 # This workflow will install Python dependencies, run tests and lint with a variety of Python versions
