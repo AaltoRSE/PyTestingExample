@@ -8,8 +8,8 @@ def test_add():
     assert add("space", "ship") == "spaceship"
 
 
-# def test_subtract():
-#    assert subtract(3,2) == 1
+def test_subtract():
+    assert subtract(3,2) == 1
 
 
 # def test_convert_fahrenheit_to_celsius():
