@@ -8,11 +8,11 @@ def test_add():
     assert add("space", "ship") == "spaceship"
 
 
- def test_subtract():
+def test_subtract():
     assert subtract(3,2) == 1
 
 
- def test_convert_fahrenheit_to_celsius():
+def test_convert_fahrenheit_to_celsius():
     assert f2c(32) == 0
     assert f2c(122) == pytest.approx(50)
     with pytest.raises(AssertionError):
